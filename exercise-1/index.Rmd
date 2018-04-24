@@ -1,5 +1,5 @@
 ---
-title: "Super Troopers 2 Review"
+title: "Movie Review"
 output: html_document
 ---
 
@@ -10,7 +10,7 @@ source('exercise.R')
 
 ## `r review$headline`
 
-Below is the summary about Super Troopers 2 from the New York Times API:
+Below is the summary about `r movie_name` from the New York Times API:
 
 > `r review$summary`
 

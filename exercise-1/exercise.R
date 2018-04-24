@@ -7,7 +7,7 @@ library(jsonlite)
 source("apikey.R")
 
 # Create a variable `movie.name` that is the name of a movie of your choice.
-movie_name <- "Frozen"
+movie_name <- "Super Troopers 2"
 
 # Construct an HTTP request to search for reviews for the given movie.
 # The base URI is `https://api.nytimes.com/svc/movies/v2/`
